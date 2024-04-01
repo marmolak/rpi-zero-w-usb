@@ -163,3 +163,5 @@ systemctl daemon-reload
 systemctl enable usbshare.service
 systemctl start usbshare.service
 systemctl restart smbd.service
+
+echo "If you see this, you should restart now."
